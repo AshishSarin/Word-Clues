@@ -1,0 +1,80 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/red_backgorund_a2z"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <TextView
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:textColor="@color/yellow_backgorund_a2z"
+        android:textSize="35sp"
+        android:text="@string/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:id="@+id/scrollView_difficulty"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+            <FrameLayout
+                android:layout_marginBottom="20dp"
+                android:id="@+id/beginner_layout"
+                android:onClick="onBeginner"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:layout_marginBottom="25dp"
+                android:id="@+id/amateur_layout"
+                android:onClick="onAmateur"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+            </FrameLayout>
+
+            <FrameLayout
+
+                android:layout_marginBottom="20dp"
+                android:id="@+id/expert_layout"
+                android:onClick="onExpert"
+                android:clickable="true"
+                android:layout_width="match_parent"
+            android:layout_height="150dp">
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_marginBottom="20dp"
+                android:id="@+id/professional_layout"
+                android:onClick="onProfessional"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

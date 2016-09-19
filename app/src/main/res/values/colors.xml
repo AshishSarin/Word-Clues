@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grey_background_a2z">#abaaaa</color>
+    <color name="white_background_a2z">#ECEFF1</color>
+    <color name="red_backgorund_a2z">#F44336</color>
+    <color name="yellow_backgorund_a2z">#FFEB3B</color>
+    <color name="text_color_a2z">#000000</color>
+</resources>

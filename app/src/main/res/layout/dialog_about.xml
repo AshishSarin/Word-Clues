@@ -1,0 +1,70 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:background="@color/red_backgorund_a2z"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/yellow_backgorund_a2z"
+        android:textSize="35sp"
+        android:text="@string/app_name"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/version_text"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:text="Version   1.0.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:stateListAnimator="@null"
+        android:id="@+id/btn_about"
+        android:layout_margin="7dp"
+        android:background="@drawable/flat_selector_rate"
+        android:text="About"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="175dp"
+        android:layout_height="40dp" />
+
+    <Button
+        android:stateListAnimator="@null"
+        android:id="@+id/btn_fb"
+        android:layout_margin="7dp"
+        android:background="@drawable/flat_selector_rate"
+        android:text="Like Us"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="175dp"
+        android:layout_height="40dp" />
+
+    <Button
+        android:stateListAnimator="@null"
+        android:id="@+id/btn_twitter"
+        android:layout_margin="7dp"
+        android:background="@drawable/flat_selector_rate"
+        android:text="Follow Us"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="175dp"
+        android:layout_height="40dp" />
+
+
+</LinearLayout>

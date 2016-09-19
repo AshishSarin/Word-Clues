@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="15dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/red_backgorund_a2z"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:padding="10dp"
+        android:textColor="@color/yellow_backgorund_a2z"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:text="@string/settings_label_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TableLayout
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:padding="10dp">
+            <TextView
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:text="Sound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:textStyle="bold"
+                android:checked="true"
+                android:layout_marginLeft="20dp"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:id="@+id/checkbox_sound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:padding="10dp">
+            <TextView
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:text="Notifications"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:textStyle="bold"
+                android:checked="true"
+                android:layout_marginLeft="20dp"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:id="@+id/checkbox_music"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:stateListAnimator="@null"
+        android:id="@+id/btn_rate_us"
+        android:layout_margin="20dp"
+        android:background="@drawable/flat_selector_rate"
+        android:text="Rate Us"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<resources>
+
+    <string name="app_name">Word Clues</string>
+    <string name="title_activity_difficulty">DifficultyActivity</string>
+    <string name="title_activity_level">LevelActivity</string>
+    <string name="title_activity_game">GameActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+
+    <string name="pref_beg_level_unlock" translatable="false">beg_level</string>
+    <string name="pref_ama_level_unlock" translatable="false">ama_level</string>
+    <string name="pref_exp_level_unlock" translatable="false">exp_level</string>
+    <string name="pref_pro_level_unlock" translatable="false">pro_level</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_us_text_textview">For any feedback or suggestion kindly mail us at squarelabs9@gmail.com</string>
+    <string name="settings_label_textview">Settings</string>
+    <string name="developer_name">Square Labs</string>
+    <string name="my_name">Ashish</string>
+
+
+</resources>
