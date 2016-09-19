@@ -3,6 +3,7 @@ package com.android.sareen.a2z.database;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+
 import com.android.sareen.a2z.database.GameContracts.GameEntry;
 
 /**
